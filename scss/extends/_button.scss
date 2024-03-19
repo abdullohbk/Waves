@@ -1,0 +1,23 @@
+%buttonStyle{
+    padding: 12px 24px;
+    display: grid;
+    place-content: center;
+    border: none;
+    color:#fff;
+    transition: all 0.2s linear;
+    box-shadow:  #8447E9;
+    background-color: $color-brend;
+    cursor: pointer;
+}
+
+%buttonStyleHover{
+    transition: all 0.2s linear;
+    background-color:#9e7fd1;
+    color:#ebebeb;
+}
+
+%buttonStyleFocus{
+    color:#ebebeb;
+    box-shadow:  #8447E9;
+    background-color: $color-brend;
+}
